@@ -45,10 +45,17 @@ public class Main {
         int Cris = 76230;
         var year = 12;
         double increaseCash = 0.1;
+
         // вычисление увеличеной зарплаты на10%
         double increaseCashMasha= (Masha*increaseCash)+Masha;
+        System.out.println(increaseCashMasha);
+
         double increaseCashDen= (Den*increaseCash)+Den;
+        System.out.println(increaseCashDen);
+
         double increaseCashCris= (Cris*increaseCash)+Cris;
+        System.out.println(increaseCashCris);
+
         // разница годовой зарплаты
         double yearCashMasha = (increaseCashMasha * year)-(Masha*year);
         double yearCashDen = (increaseCashDen * year)-(Den*year);
@@ -56,6 +63,6 @@ public class Main {
 
 
 
-        System.out.println(yearCashMasha);
+        System.out.println();
     }
 }
